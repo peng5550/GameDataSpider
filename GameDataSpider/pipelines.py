@@ -10,7 +10,7 @@ class GamedataspiderPipeline(object):
 
     def process_item(self, item, spider):
 
-        post_url = "http://www.huaxiatui.cn/index/index/add"
+        post_url = "http://chuan.weifantech.com/admin/Api/getdata"
         post_data = {
             "txt": item["data"],
             "site_name": item["shortName"]
