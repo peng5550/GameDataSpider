@@ -15,6 +15,7 @@ class GamedataspiderPipeline(object):
             "txt": item["data"],
             "site_name": item["shortName"]
         }
-        res = requests.post(post_url, json=post_data, timeout=600)
 
+        res = requests.post(post_url, json=post_data, timeout=600)
+        print("数据发送结果：", res.text)
         return item

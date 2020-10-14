@@ -10,11 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edd91761-abf7-4c91-a8e4-fb2aae06d34f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="edd91761-abf7-4c91-a8e4-fb2aae06d34f" name="Default Changelist" comment="更换接口">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameDataSpider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameDataSpider/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +209,16 @@
       <workItem from="1601272002939" duration="837000" />
       <workItem from="1601276390846" duration="1203000" />
       <workItem from="1602319402512" duration="154000" />
+      <workItem from="1602579044747" duration="1852000" />
     </task>
+    <task id="LOCAL-00001" summary="更换接口">
+      <created>1602579246915</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602579246915</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +235,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更换接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="更换接口" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600756196473">
@@ -251,22 +262,22 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="555" y="133" key="Github.UntrackedFilesDialog/0.0.1440.860@0.0.1440.860" timestamp="1601272814434" />
-    <state width="1397" height="480" key="GridCell.Tab.0.bottom" timestamp="1602319556443">
+    <state width="1397" height="360" key="GridCell.Tab.0.bottom" timestamp="1602581430928">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="480" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1602319556443" />
-    <state width="1397" height="480" key="GridCell.Tab.0.center" timestamp="1602319556443">
+    <state width="1397" height="360" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1602581430928" />
+    <state width="1397" height="360" key="GridCell.Tab.0.center" timestamp="1602581430928">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="480" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1602319556443" />
-    <state width="1397" height="480" key="GridCell.Tab.0.left" timestamp="1602319556443">
+    <state width="1397" height="360" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1602581430928" />
+    <state width="1397" height="360" key="GridCell.Tab.0.left" timestamp="1602581430928">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="480" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1602319556443" />
-    <state width="1397" height="480" key="GridCell.Tab.0.right" timestamp="1602319556443">
+    <state width="1397" height="360" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1602581430928" />
+    <state width="1397" height="360" key="GridCell.Tab.0.right" timestamp="1602581430928">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="480" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1602319556443" />
+    <state width="1397" height="360" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1602581430928" />
     <state x="511" y="149" key="RollbackChangesDialog" timestamp="1600674155495">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -276,6 +287,10 @@
     </state>
     <state x="139" y="57" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1601272760091" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600781421313" />
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1602579251896">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1602579251896" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1600863534134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -285,7 +300,7 @@
     <SUITE FILE_PATH="coverage/GameDataSpider$19xf.coverage" NAME="19xf Coverage Results" MODIFIED="1600666071804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GameDataSpider/spiders" />
     <SUITE FILE_PATH="coverage/GameDataSpider$demo.coverage" NAME="demo Coverage Results" MODIFIED="1600743808883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GameDataSpider" />
     <SUITE FILE_PATH="coverage/GameDataSpider$qusf.coverage" NAME="qusf Coverage Results" MODIFIED="1600671762925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GameDataSpider/spiders" />
-    <SUITE FILE_PATH="coverage/GameDataSpider$run.coverage" NAME="run Coverage Results" MODIFIED="1602319462702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GameDataSpider" />
+    <SUITE FILE_PATH="coverage/GameDataSpider$run.coverage" NAME="run Coverage Results" MODIFIED="1602580264067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GameDataSpider" />
     <SUITE FILE_PATH="coverage/GameDataSpider$99j.coverage" NAME="99j Coverage Results" MODIFIED="1600656900117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GameDataSpider/spiders" />
     <SUITE FILE_PATH="coverage/GameDataSpider$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1600916623590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GameDataSpider$jjj.coverage" NAME="jjj Coverage Results" MODIFIED="1600658485105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GameDataSpider/spiders" />
