@@ -7,6 +7,8 @@ class GamedataSpider(scrapy.Spider):
     name = '2wwCrawler'
 
     def start_requests(self):
+        with open("url.txt", "r+")as file:
+            print(file.read())
         start_urls = ['https://www.2ww.com/h5/index/ifindex.html']
         for start in start_urls:
             yield scrapy.Request(start, dont_filter=True, callback=self.detail_page)
