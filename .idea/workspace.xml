@@ -10,16 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edd91761-abf7-4c91-a8e4-fb2aae06d34f" name="Default Changelist" comment="添加dont_filter">
-      <change afterPath="$PROJECT_DIR$/GameDataSpider/spiders/url.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getContent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parseHtml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameDataSpider/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/2ww.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/2ww.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy.cfg" afterDir="false" />
+    <list default="true" id="edd91761-abf7-4c91-a8e4-fb2aae06d34f" name="Default Changelist" comment="抛弃scrapy">
+      <change beforePath="$PROJECT_DIR$/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getContent.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +210,7 @@
       <workItem from="1601276390846" duration="1203000" />
       <workItem from="1602319402512" duration="154000" />
       <workItem from="1602579044747" duration="1852000" />
-      <workItem from="1602635216419" duration="14570000" />
+      <workItem from="1602635216419" duration="14904000" />
     </task>
     <task id="LOCAL-00001" summary="更换接口">
       <created>1602579246915</created>
@@ -240,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602638822356</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="抛弃scrapy">
+      <created>1602667411927</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602667411927</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +261,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更换接口" />
     <MESSAGE value="添加dont_filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加dont_filter" />
+    <MESSAGE value="抛弃scrapy" />
+    <option name="LAST_COMMIT_MESSAGE" value="抛弃scrapy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600756196473">
@@ -310,10 +311,10 @@
     </state>
     <state x="139" y="57" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1602659880172" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600781421313" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1602638827452">
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1602667418954">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1602638827452" />
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1602667418954" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1600863534134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

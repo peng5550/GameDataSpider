@@ -1,9 +1,6 @@
 import aiohttp
 import asyncio
 
-
-
-
 class GameCrawler:
 
     def __init__(self):
@@ -36,4 +33,4 @@ class GameCrawler:
     def start(self):
         urlList = []
         loop = asyncio.get_event_loop()
-        loop.run_until_complete(self.taskManager(self.urlList, self.__crawler))
+        loop.run_until_complete(self.taskManager(urlList, self.__crawler))
