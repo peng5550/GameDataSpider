@@ -10,7 +10,7 @@ class GamedataSpider(scrapy.Spider):
     def start_requests(self):
         start_urls = ['https://9pk.5566rs.com/', 'http://9pk.5566rs.com/index2.html']
         for start in start_urls:
-            yield scrapy.Request(start, callback=self.detail_page)
+            yield scrapy.Request(start, dont_filter=True, callback=self.detail_page)
 
     def detail_page(self, response):
         item = GamedataspiderItem()
