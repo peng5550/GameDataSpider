@@ -3,7 +3,6 @@ import scrapy
 from GameDataSpider.items import GamedataspiderItem
 import re
 from urllib.parse import urlparse
-
 from GameDataSpider.sqlConn import connSql
 
 
