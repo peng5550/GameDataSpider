@@ -11,8 +11,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edd91761-abf7-4c91-a8e4-fb2aae06d34f" name="Default Changelist" comment="抛弃scrapy">
-      <change beforePath="$PROJECT_DIR$/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getContent.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/GameDataSpider/spiders/最新站点.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/19xf.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/19xf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/2ww.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/2ww.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/4gg.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/4gg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/4sf.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/4sf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/52455.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/52455.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/88a.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/88a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/92f.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/92f.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/945.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/945.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/9745.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/9745.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/99j.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/99j.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/9qk.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/9pk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/cc2cchccq.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/2hq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/cc6ccxccq.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/6xq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/duosf.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/duosf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/gdy.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/6ay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/haosf.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/haosf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/jjj.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/jjj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/kusf.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/kusf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/laomir.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/laomir.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/qusf.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/qusf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/sfbao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/url.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/sqlConn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/zhaohf.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/zhaohf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parseHtml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,16 +83,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../broadbandServices/broadbandQuery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HGstore" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\projects\GameDataSpider" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\penggit\GameDataSpider\GameDataSpider\spiders" />
       <recent name="F:\projects\GameDataSpider\GameDataSpider" />
       <recent name="D:\projects\GameDataSpider" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\projects\GameDataSpider" />
     </key>
   </component>
   <component name="RunManager" selected="Python.run">
@@ -210,7 +242,8 @@
       <workItem from="1601276390846" duration="1203000" />
       <workItem from="1602319402512" duration="154000" />
       <workItem from="1602579044747" duration="1852000" />
-      <workItem from="1602635216419" duration="14904000" />
+      <workItem from="1602635216419" duration="14956000" />
+      <workItem from="1602721746878" duration="10174000" />
     </task>
     <task id="LOCAL-00001" summary="更换接口">
       <created>1602579246915</created>
@@ -240,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602667411927</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="抛弃scrapy">
+      <created>1602667759636</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602667759636</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,10 +313,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="450" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1600826697841" />
-    <state x="555" y="227" key="FileChooserDialogImpl" timestamp="1602667039438">
+    <state x="555" y="227" key="FileChooserDialogImpl" timestamp="1602729865123">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="555" y="227" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1602667039438" />
+    <state x="555" y="227" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1602729865123" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600781116657" />
     <state x="569" y="327" width="301" height="281" key="Github.ShareDialog" timestamp="1601272804762">
       <screen x="0" y="0" width="1440" height="860" />
@@ -286,22 +326,22 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="555" y="133" key="Github.UntrackedFilesDialog/0.0.1440.860@0.0.1440.860" timestamp="1601272814434" />
-    <state width="1397" height="334" key="GridCell.Tab.0.bottom" timestamp="1602662781000">
+    <state width="1397" height="228" key="GridCell.Tab.0.bottom" timestamp="1602733189553">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="334" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1602662781000" />
-    <state width="1397" height="334" key="GridCell.Tab.0.center" timestamp="1602662781000">
+    <state width="1397" height="228" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1602733189553" />
+    <state width="1397" height="228" key="GridCell.Tab.0.center" timestamp="1602733189553">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="334" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1602662781000" />
-    <state width="1397" height="334" key="GridCell.Tab.0.left" timestamp="1602662781000">
+    <state width="1397" height="228" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1602733189553" />
+    <state width="1397" height="228" key="GridCell.Tab.0.left" timestamp="1602733189553">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="334" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1602662781000" />
-    <state width="1397" height="334" key="GridCell.Tab.0.right" timestamp="1602662781000">
+    <state width="1397" height="228" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1602733189553" />
+    <state width="1397" height="228" key="GridCell.Tab.0.right" timestamp="1602733189553">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="334" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1602662781000" />
+    <state width="1397" height="228" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1602733189553" />
     <state x="511" y="149" key="RollbackChangesDialog" timestamp="1600674155495">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -311,10 +351,10 @@
     </state>
     <state x="139" y="57" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1602659880172" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600781421313" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1602667418954">
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1602667761659">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1602667418954" />
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1602667761659" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1600863534134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -324,7 +364,7 @@
     <SUITE FILE_PATH="coverage/GameDataSpider$19xf.coverage" NAME="19xf Coverage Results" MODIFIED="1600666071804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GameDataSpider/spiders" />
     <SUITE FILE_PATH="coverage/GameDataSpider$demo.coverage" NAME="demo Coverage Results" MODIFIED="1600743808883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GameDataSpider" />
     <SUITE FILE_PATH="coverage/GameDataSpider$qusf.coverage" NAME="qusf Coverage Results" MODIFIED="1600671762925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GameDataSpider/spiders" />
-    <SUITE FILE_PATH="coverage/GameDataSpider$run.coverage" NAME="run Coverage Results" MODIFIED="1602650722461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GameDataSpider" />
+    <SUITE FILE_PATH="coverage/GameDataSpider$run.coverage" NAME="run Coverage Results" MODIFIED="1602733189542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GameDataSpider" />
     <SUITE FILE_PATH="coverage/GameDataSpider$99j.coverage" NAME="99j Coverage Results" MODIFIED="1600656900117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GameDataSpider/spiders" />
     <SUITE FILE_PATH="coverage/GameDataSpider$demo__1_.coverage" NAME="demo (1) Coverage Results" MODIFIED="1600916623590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GameDataSpider$jjj.coverage" NAME="jjj Coverage Results" MODIFIED="1600658485105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GameDataSpider/spiders" />

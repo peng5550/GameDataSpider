@@ -2,16 +2,26 @@
 import scrapy
 from GameDataSpider.items import GamedataspiderItem
 from urllib.parse import urlparse
+from GameDataSpider.sqlConn import connSql
+
 
 class GamedataSpider(scrapy.Spider):
     name = '2wwCrawler'
 
+    def __init__(self):
+        super(GamedataSpider, self).__init__()
+        self.sql = connSql()
+
     def start_requests(self):
-        with open("url.txt", "r+")as file:
-            print(file.read())
-        start_urls = ['https://www.2ww.com/h5/index/ifindex.html']
+        item_info = {"shortName": self.name.replace("Crawler", "")}
+        sqlres = self.sql.select_data(item_info=item_info)
+        start_urls = sqlres[0].split("||")
+        if sqlres[1]:
+            oth_urls = sqlres[1].split("||")
+        else:
+            oth_urls = []
         for start in start_urls:
-            yield scrapy.Request(start, dont_filter=True, callback=self.detail_page)
+            yield scrapy.Request(start, dont_filter=True, meta={"othLink": oth_urls}, callback=self.detail_page)
 
     def detail_page(self, response):
         item = GamedataspiderItem()

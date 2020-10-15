@@ -6,6 +6,11 @@
 # https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
+from scrapy.core.downloader.handlers.http11 import TunnelError
+from scrapy.exceptions import IgnoreRequest
+from twisted.internet import defer
+from twisted.internet.error import DNSLookupError, ConnectError, ConnectionDone, TCPTimedOutError, ConnectionLost
+from twisted.web._newclient import ResponseFailed
 
 
 class GamedataspiderSpiderMiddleware(object):
@@ -60,6 +65,10 @@ class GamedataspiderDownloaderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the downloader middleware does not modify the
     # passed objects.
+    ALL_EXCEPTIONS = (defer.TimeoutError, TimeoutError, DNSLookupError,
+                      ConnectionRefusedError, ConnectionDone, ConnectError,
+                      ConnectionLost, TCPTimedOutError, ResponseFailed,
+                      IOError, TunnelError)
 
     @classmethod
     def from_crawler(cls, crawler):
@@ -87,6 +96,17 @@ class GamedataspiderDownloaderMiddleware(object):
         # - return a Response object
         # - return a Request object
         # - or raise IgnoreRequest
+        if str(response.status).startswith('4') or str(response.status).startswith('5'):
+            # 随意封装，直接返回response，spider代码中根据url==''来处理response
+            urlList = request.meta["othLink"]
+            if urlList:
+                url = urlList.pop()
+                request._set_url(url=url)
+                request.meta["othLink"] = urlList
+                return request
+            else:
+                raise IgnoreRequest
+
         return response
 
     def process_exception(self, request, exception, spider):
@@ -97,7 +117,17 @@ class GamedataspiderDownloaderMiddleware(object):
         # - return None: continue processing this exception
         # - return a Response object: stops process_exception() chain
         # - return a Request object: stops process_exception() chain
-        pass
+        if isinstance(exception, self.ALL_EXCEPTIONS):
+            # 在日志中打印异常类型
+            print('Got exception: %s' % (exception))
+            urlList = request.meta["othLink"]
+            if urlList:
+                url = urlList.pop()
+                request._set_url(url=url)
+                request.meta["othLink"] = urlList
+                return request
+            else:
+                raise IgnoreRequest
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)

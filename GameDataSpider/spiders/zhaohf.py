@@ -4,13 +4,35 @@ from GameDataSpider.items import GamedataspiderItem
 import re
 from urllib.parse import urlparse
 
+from GameDataSpider.sqlConn import connSql
+
+
 class GamedataSpider(scrapy.Spider):
     name = 'zhaohfCrawler'
 
+    def __init__(self):
+        super(GamedataSpider, self).__init__()
+        self.sql = connSql()
+
     def start_requests(self):
-        start_urls = ['https://c.zhaohf.com/web.html']
+        item_info = {"shortName": self.name.replace("Crawler", "")}
+        sqlres = self.sql.select_data(item_info=item_info)
+        start_urls = sqlres[0].split("||")
+        if sqlres[1]:
+            oth_urls = sqlres[1].split("||")
+        else:
+            oth_urls = []
         for start in start_urls:
-            yield scrapy.Request(start, dont_filter=True, callback=self.detail_page)
+            headers = {
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+                'Accept-Encoding': 'gzip, deflate, br',
+                'Accept-Language': 'zh-CN,zh;q=0.9',
+                'Connection': 'keep-alive',
+                'Host': 'c.zhaohf.com',
+                'Referer': 'https://c.zhaohf.com/web.html',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36'
+            }
+            yield scrapy.Request(start, dont_filter=True, meta={"othLink": oth_urls}, headers=headers, callback=self.detail_page)
 
     def detail_page(self, response):
         item = GamedataspiderItem()
