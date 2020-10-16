@@ -4,7 +4,7 @@ TABLENAME = "gamespider"
 
 class connSql(object):
 
-    def __init__(self, host="127.0.0.1", port=3306, usr="root", passwd="123456", database="projects"):
+    def __init__(self, host="47.57.190.6", port=3306, usr="game", passwd="3Lbx4FFpPD8YDz3L", database="game"):
         self.conn = pymysql.connect(host=host, port=port, user=usr, passwd=passwd, db=database,
                                     charset="utf8")
         self.db = self.conn.cursor()

@@ -12,11 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="edd91761-abf7-4c91-a8e4-fb2aae06d34f" name="Default Changelist" comment="更新链接获取方法:sql">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameDataSpider/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/2ww.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/2ww.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/qusf.py" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/qusf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameDataSpider/spiders/最新站点.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GameDataSpider/spiders/最新站点.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HGstore" />
+    <property name="last_opened_file_path" value="H:/英谷教育/projects/python爬虫/spider_liepin" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -216,7 +211,7 @@
       <workItem from="1602319402512" duration="154000" />
       <workItem from="1602579044747" duration="1852000" />
       <workItem from="1602635216419" duration="14956000" />
-      <workItem from="1602721746878" duration="13908000" />
+      <workItem from="1602721746878" duration="15921000" />
     </task>
     <task id="LOCAL-00001" summary="更换接口">
       <created>1602579246915</created>
@@ -260,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602733525089</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="更新链接获取方法:sql">
+      <created>1602743483773</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602743483773</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,10 +296,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="450" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1600826697841" />
-    <state x="555" y="227" key="FileChooserDialogImpl" timestamp="1602729865123">
+    <state x="555" y="227" key="FileChooserDialogImpl" timestamp="1602744286427">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="555" y="227" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1602729865123" />
+    <state x="555" y="227" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1602744286427" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600781116657" />
     <state x="569" y="327" width="301" height="281" key="Github.ShareDialog" timestamp="1601272804762">
       <screen x="0" y="0" width="1440" height="860" />
@@ -307,22 +309,22 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="555" y="133" key="Github.UntrackedFilesDialog/0.0.1440.860@0.0.1440.860" timestamp="1601272814434" />
-    <state width="1397" height="275" key="GridCell.Tab.0.bottom" timestamp="1602738233555">
+    <state width="1397" height="275" key="GridCell.Tab.0.bottom" timestamp="1602754276408">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="275" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1602738233555" />
-    <state width="1397" height="275" key="GridCell.Tab.0.center" timestamp="1602738233555">
+    <state width="1397" height="275" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1602754276408" />
+    <state width="1397" height="275" key="GridCell.Tab.0.center" timestamp="1602754276407">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="275" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1602738233555" />
-    <state width="1397" height="275" key="GridCell.Tab.0.left" timestamp="1602738233555">
+    <state width="1397" height="275" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1602754276407" />
+    <state width="1397" height="275" key="GridCell.Tab.0.left" timestamp="1602754276407">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="275" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1602738233555" />
-    <state width="1397" height="275" key="GridCell.Tab.0.right" timestamp="1602738233555">
+    <state width="1397" height="275" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1602754276407" />
+    <state width="1397" height="275" key="GridCell.Tab.0.right" timestamp="1602754276408">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="275" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1602738233555" />
+    <state width="1397" height="275" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1602754276408" />
     <state x="511" y="149" key="RollbackChangesDialog" timestamp="1600674155495">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -332,10 +334,10 @@
     </state>
     <state x="139" y="57" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1602659880172" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600781421313" />
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1602733529913">
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2" timestamp="1602743488557">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1602733529913" />
+    <state x="312" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1602743488557" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1600863534134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
